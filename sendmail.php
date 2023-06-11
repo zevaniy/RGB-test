@@ -13,7 +13,7 @@
 	//От кого письмо
 	$mail->setFrom('email@gmail.com', 'Name'); // Указать нужный E-mail
 	//Кому отправить
-	$mail->addAddress('rrzevan@gmail.com'); // Указать нужный E-mail
+	$mail->addAddress('designer.web.studio.rgb@gmail.com'); // Указать нужный E-mail
 	//Тема письма
 	$mail->Subject = 'Test massage!';
 
