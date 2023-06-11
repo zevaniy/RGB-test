@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<title>Тестове завдання RGB</title>
+	<meta charset="UTF-8">
+	<meta name="format-detection" content="telephone=no">
+	<meta name="theme-color" content="#111111">
+	<!-- <style>body{opacity: 0;}</style> -->
+	<link rel="stylesheet" href="css/style.min.css?_v=20230611101907">
+	<link rel="shortcut icon" href="favicon.ico">
+	<!-- <meta name="robots" content="noindex, nofollow"> -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+	<div class="wrapper">
+		<header class="header">
+			<div class="header__container">
+				<a href="#" class="header__logo"><img src="img/logo.svg" alt="Powercode Academy"></a>
+				<div class="header__labels">
+
+					<div class="header__label">
+						<img src="img/icons/calendar_today.svg" alt="Дата">
+						<p>28 декабря</p>
+					</div>
+					<div class="header__label">
+						<img src="img/icons/gg_time.svg" alt="Время">
+						<p>3,5 часа</p>
+					</div>
+				</div>
+			</div>
+		</header>
+		<main class="page">
+			<div class="page__container">
+				<div class="page__content">
+					<div class="page__label">
+						<img src="img/icons/globe.svg" alt="Вебинар">
+						<p>Вебинар</p>
+					</div>
+					<div class="page__title title">
+						<h1 class="title__text">front-end</h1>
+						<p class="title__subtext"><span class="title__decor"><span class="title__decor-text">с
+									нуля</span></span> легкий старт в IT профессии</p>
+					</div>
+
+					<p class="page__text text">
+						Узнайте какими <span class="text__bold">навыками должен обладать фронтенд разработчик в 2022
+							году</span> и как начать карьеру в востребованной профессии
+						<span class="text__newline">с зарплатой<span class="text__decor">от 1000$</span></span>
+					</p>
+				</div>
+				<div class="page__info info">
+					<div class="info__item item-info">
+						<div class="item-info__img">
+							<picture><source srcset="img/avatar.webp" type="image/webp"><img src="img/avatar.png" alt="Кирилл Касатонов"></picture>
+						</div>
+						<div class="item-info__body">
+							<h3 class="item-info__title item-info__title--name">
+								Кирилл <span>Касатонов</span>
+							</h3>
+							<p class="item-info__text">
+								6 лет коммерческого опыта с такими компаниями как Mercedes-Benz и другими крупными
+								корпорациями
+							</p>
+						</div>
+					</div>
+					<div class="info__item item-info">
+						<div class="item-info__img">
+							<picture><source srcset="img/bonus.webp" type="image/webp"><img src="img/bonus.png" alt="Бонус"></picture>
+						</div>
+						<div class="item-info__body">
+							<h3 class="item-info__title">
+								Бонус за регистрацию
+							</h3>
+							<p class="item-info__text">
+								PDF-файл "5 преимуществ профессии фронтенд разработчика"
+							</p>
+						</div>
+					</div>
+					<div class="info__item item-info">
+						<div class="item-info__img">
+							<picture><source srcset="img/bonus.webp" type="image/webp"><img src="img/bonus.png" alt="Бонус"></picture>
+						</div>
+						<div class="item-info__body">
+							<h3 class="item-info__title">
+								Бонус за регистрацию
+							</h3>
+							<p class="item-info__text">
+								PDF-файл "5 преимуществ профессии веб-дизайнера"
+							</p>
+						</div>
+					</div>
+				</div>
+
+				<div class="page__registrations registrations">
+					<h2 class="registrations__title">Запишитесь <span>бесплатно</span>
+						и получите подарок</h2>
+					<form data-ajax method="POST" action="sendmail.php" id="form" class="registrations__form form">
+						<input type="text" name="Имя" class="form__input" data-required placeholder="Ваше имя и фамилия">
+						<input type="tel" name="Телефон" id="phone" class="form__input" data-placeholder-nohide data-required placeholder="Ваш номер телефона">
+						<input type="email" name="eMail" class="form__input" data-required placeholder="Ваш email">
+						<button type="submit" class="form__btn">Записаться бесплатно</button>
+					</form>
+					<div class="registrations__pilicy">
+						<p>Нажимая на кнопку я согашаюсь</p>
+						<a href="#" class="registrations__policy-link">
+							с политикой конфидециальности
+						</a>
+					</div>
+				</div>
+			</div>
+		</main>
+		<footer class="footer">
+			<p class="footer__text">front-end developer</p>
+		</footer>
+	</div>
+	<script src="js/app.min.js?_v=20230611101907"></script>
+</body>
+
+</html>
